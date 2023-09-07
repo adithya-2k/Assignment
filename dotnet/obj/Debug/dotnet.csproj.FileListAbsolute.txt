@@ -1,0 +1,7 @@
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\bin\Debug\dotnet.exe.config
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\bin\Debug\dotnet.exe
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\bin\Debug\dotnet.pdb
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\obj\Debug\dotnet.csproj.AssemblyReference.cache
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\obj\Debug\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\obj\Debug\dotnet.exe
+C:\Users\adithyak\Downloads\Dotnet\dotnet\dotnet\obj\Debug\dotnet.pdb
