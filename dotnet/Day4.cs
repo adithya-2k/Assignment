@@ -25,6 +25,8 @@ namespace day_4
             for (int j = 0; j < answer.Length; j++)
             {
                 Console.Write($"{answer[j]}" + " " );
+                double x = 10.25;
+                Console.Write(Convert.ToInt32(x));
             }
             Console.Read();
         }
