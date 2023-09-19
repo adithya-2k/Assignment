@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>dotnet.test1</StartupObject>
+    <StartupObject>DotNet_Day10.Day10multi</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,7 +49,10 @@
     <Compile Include="Assignment3.cs" />
     <Compile Include="Assignment4.cs" />
     <Compile Include="Calculate.cs" />
+    <Compile Include="Day 10 Multicasting.cs" />
+    <Compile Include="Day 9 inferface.cs" />
     <Compile Include="Day4.cs" />
+    <Compile Include="Properties.cs" />
     <Compile Include="Equalornot.cs" />
     <Compile Include="Outkey.cs" />
     <Compile Include="posorneg.cs" />
@@ -57,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test1.cs" />
     <Compile Include="test2.cs" />
+    <Compile Include="test3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
