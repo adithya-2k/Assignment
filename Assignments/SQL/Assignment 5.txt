@@ -22,14 +22,14 @@ begin
     set @grossSalary = @Salary + @hra + @da
     set @netsalary = @grossSalary - @deductions 
 
-    print 'Payslip of Employee:' + @EmployeeName
+    print 'Payslip of Employee:' + @employeename
     print 'Basic Salary is:' + cast(@Salary as nvarchar(50))
-    print 'HRA is:' + cast(@HRA as nvarchar(50))
-    print 'DA is:' + cast(@DA as nvarchar(50))
-    print 'PF is:' + cast(@PF as nvarchar(50))
-    print 'IT is:' + cast(@IT as nvarchar(50))
-    print 'Your Gross Salary is:' + cast(@GrossSalary as nvarchar(50))
-    print 'Your Deductions is:' + cast(@Deductions as nvarchar(50))
-    print 'Your Net Salary is:' + cast(@NetSalary as nvarchar(50))
+    print 'HRA is:' + cast(@hra as nvarchar(50))
+    print 'DA is:' + cast(@da as nvarchar(50))
+    print 'PF is:' + cast(@pf as nvarchar(50))
+    print 'IT is:' + cast(@it as nvarchar(50))
+    print 'Your Gross Salary is:' + cast(@grossSalary as nvarchar(50))
+    print 'Your Deductions is:' + cast(@deductions as nvarchar(50))
+    print 'Your Net Salary is:' + cast(@netsalary as nvarchar(50))
 
 end
