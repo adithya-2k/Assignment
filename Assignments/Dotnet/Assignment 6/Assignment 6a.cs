@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment
+{
+    public class Assignment6a
+    {
+        public const int Fixedfare = 800;
+
+        public static void CalculateConcession(int age, string name)
+
+        {
+            if (age <= 5)
+            {
+                Console.WriteLine("Little champs free ticket");
+                Console.WriteLine($"Name: {name}, Age: {age}");
+
+            }
+            else if (age > 60)
+            {
+                double amount = FixedFare * 0.7;
+                Console.WriteLine($"Name: {name}, Age: {age} , Senior citizen concessioned fare: {amount}");
+
+            }
+            else
+            {
+                Console.WriteLine($"Name: {name}, Age: {age}");
+                Console.WriteLine($"Ticket fare: {Fixedfare}");
+            }
+
+        }
+
+    }
+
+}
