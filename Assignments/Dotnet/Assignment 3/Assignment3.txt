@@ -1,0 +1,50 @@
+using System;
+
+namespace dotnet
+{
+    class Assignment3
+    {
+        public static void Main()
+        {
+            Assignment3.Findlength();
+            Assignment3.Reverseword();
+            Assignment3.Equalornot();
+
+        }
+
+        public static void Findlength()
+        {
+            Console.Write("------------- Find Length ---------- \n");
+            Console.Write("Enter the data: ");
+            string value = Console.ReadLine();
+            Console.WriteLine($"The string {value} leangth is {value.Length}");
+        }
+        public static void Reverseword()
+        {
+            Console.Write("------------- Reverse word ---------- \n");
+            Console.Write("Enter the data: ");
+            string value1 = Console.ReadLine();
+            char[] stringArray = value1.ToCharArray();
+            Array.Reverse(stringArray);
+            string reversedStr = new string(stringArray);
+            Console.Write($"Actual String is : {value1} \n");
+            Console.Write($"Reversed String is : {reversedStr}\n");
+        }
+        public static void Equalornot()
+        {
+            Console.Write("------------- Equal or not ---------- \n");
+            Console.Write("Enter first data: ");
+            string value2 = Console.ReadLine();
+            Console.Write("Enter second data: ");
+            string value3 = Console.ReadLine();
+
+            if (value2 == value3)
+                Console.WriteLine($"{value2} and {value3} are equal");
+            else
+                Console.WriteLine($"{value2} and {value3} are not equal");
+            Console.Read();
+            
+        }
+
+    }
+}
