@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment
+{
+    class Assignment5
+    {
+
+        static void Main(string[] args)
+        {
+            Assignment5 ass = new Assignment5();
+            Saledetails sales = new Saledetails();
+            Display();
+            Console.WriteLine($"Occurance {ass.Findtheoccurance()}");
+            Console.WriteLine($"{Saledetails()}")
+
+            Console.Read();
+
+        }
+
+
+        public static void Display()
+        {
+            Console.WriteLine("--------------Convert to upper case-------------");
+            Console.Write("Enter you first name:");
+           string Firstnames=Console.ReadLine();
+            Console.Write("Enter you last name:");
+            string Lastname= Console.ReadLine();
+
+            Firstnames = Firstnames.ToUpper();
+            Console.WriteLine($"\nFirst Name in uppercase:{Firstnames}");
+            Lastname = Lastname.ToUpper();
+            Console.WriteLine($"\nLast Name in uppercase:{Lastname}");
+        }
+
+        public int Findtheoccurance()
+        {
+            Console.Write("-----------Occurrences of a letter------------------");
+            Console.Write("\nEnter a word:");
+            string source = Console.ReadLine();
+            Console.Write("Enter a check letters:");
+            char toFind = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine();
+
+            int count = 0;
+            foreach (var ch in source)
+            {
+                if (ch == toFind)
+                    count++;
+            }
+            return count;
+        }
+
+    }
+
+    class Saledetails
+    {
+        public int Salesno;
+        public int Productno;
+        public int Price;
+        DateTime dateofsale;
+        int Qty;
+        int TotalAmount;
+
+        public int Sales(int Qty, int Price)
+        {
+            Qty = 2;
+            Price = 10;
+            return Qty * Price;
+        }
+
+        public Saledetails(int Salesno, int Productno, int Price,DateTime dateofsale, int Qty, int TotalAmount)
+        {
+            this.Salesno = Salesno;
+            this.Productno = Productno;
+            this.Price = Price;
+            this.dateofsale = dateofsale;
+            this.Qty = Qty;
+            this.TotalAmount = TotalAmount;
+        }
+
+
+
+
+    }
+}

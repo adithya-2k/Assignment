@@ -1,0 +1,7 @@
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\bin\Debug\Casestudy.exe.config
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\bin\Debug\Casestudy.exe
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\bin\Debug\Casestudy.pdb
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\obj\Debug\Casestudy.csproj.AssemblyReference.cache
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\obj\Debug\Casestudy.csproj.CoreCompileInputs.cache
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\obj\Debug\Casestudy.exe
+C:\Users\adithyak\Downloads\Dotnet\dotnet\Casestudy\Casestudy\Casestudy\obj\Debug\Casestudy.pdb
