@@ -131,7 +131,6 @@
     <Compile Include="Category.cs">
       <DependentUpon>Northwinconnect.tt</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\Germany.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NorthwindController.cs" />
     <Compile Include="Customer.cs">
